@@ -10,7 +10,7 @@ export default function LandingPageProvider(props) {
 
     useEffect(() => {
         const getProducts = async () => {
-            const products = await fetchProducts(1, 10);
+            const products = await fetchProducts(1, 12);
             setData(products);
             console.log(products);
         }

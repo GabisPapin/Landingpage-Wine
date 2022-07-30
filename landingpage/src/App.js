@@ -1,6 +1,7 @@
 import './App.css';
 import brinde from './assets/brinde.webp';
 import colheita from './assets/colheita.webp';
+import CardSlider from './components/CardSlider';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Carousel from './components/TopCarousel';
@@ -13,7 +14,7 @@ function App() {
       <img className="top-image" src={brinde} alt="Uma imagem" />
       <img className="colheita-image" src={colheita} alt="Uma imagem" />
 
-      {/* <Card /> */}
+      <CardSlider />
       <Footer />
     </div>
   );

@@ -8,8 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-
+  overflow-x: hidden;
 }
 
 .top-image {
@@ -51,7 +50,7 @@ body {
     align-items: flex-start;
     padding-top: 3vh;
     width: 100vw;
-    height: 90vh;
+    height: 50vh;
  
     background-image: url("https://m.foolcdn.com/media/dubs/original_images/9_3.jpg");
     background-size: cover;
@@ -70,6 +69,7 @@ body {
     justify-content: space-between;
     color: white;
     font-weight: 900;
+    list-style-type: none;
 
   }
 
@@ -103,9 +103,56 @@ body {
   
   .footer-container {
     display: flex;
+    flex-flow: column wrap;
     width: 100vw;
-    height: 10vh;  
-    background: #161616;
+    height: 80vh;  
+    background: #c4c2c2;
+    margin-top: 10vh;
+  }
+  
+  .icons-container {
+    align-content: space-between;
+    margin-top: 200px;
+    margin-left: 900px;
+  }
+
+  .icon-socials {
+    width: 50px;
+    height: 50px;
+    color: rgb(88, 14, 32);
+  }
+
+  .payment-container {
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  .icon-pay {
+    width: 50px;
+    height: 50px;
+  }
+
+  .information-container {
+    justify-content: space-between;
+  }
+
+  .company {
+    text-align:left;
+    margin-left: 40px;
+  }
+
+  .cnpj {
+    text-align:left;
+    margin-left: 39px;
+  }
+
+  .address {
+    text-align: center;
+  }
+
+  .warning {
+    font-size: 11px;
+    text-align: right;
   }
 
   /* CARD */
@@ -116,6 +163,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 20vw;
+    margin: 2vh 1vw;
   }
 
   .images-card{
@@ -123,16 +171,38 @@ body {
     justify-content: center;
     width: 20vw;
     height: 40vh;
-    border: solid black 1px;
     position: relative;
-    background: #ccc;
+    background-image: url("./assets/wineSpot1.png");
+    background-size: 80% ;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .card-img {
     max-height: 25vw;
   }
 
+  .wine-title {
+    width: 100%;
+    font-size: 3vh;
+    text-align: center;
+  }
 
+  .price {
+    margin-top: 2vh;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2vh;
+  }
+
+  .buttons button {
+    height: 5vh;
+    width: 10vw;
+  }
 
   .card-flag {
     width: 5vw;
@@ -148,12 +218,47 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 110vw;
+  height: 40vh;
 }
-.carousel-container img {
-  margin-left: 15vw ;
+
+.scratched-paper {
+  width: 105vw;
+  position: absolute;
+  left: -1vw;
+  top: 40vh;
+  image-rendering: pixelated;
+  z-index: 998;
+}
+
+
+
+.bottle {
+  margin-left: -15vw ;
+  z-index: 999;
+  transform: rotate(25deg);
+  animation-name: bottle;
+  animation-duration: 4s;
+}
+
+@keyframes bottle {
+  0% {margin-left: -10vw; }
+  100% {margin-left: 15vw;}
 }
 
 .sommelier-comment{
   width: 40vw;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.5vh;
+  font-weight: 100;
+  z-index: 9999;
+  
+}
+
+/* CardSlider */
+
+.slider-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
