@@ -1,23 +1,24 @@
 import React from 'react';
+import logo from '../assets/logo.png';
  
 export default function Header() {
     return (
         <div className='header-container'>
-            <nav>
-                <img alt='algo' />
-                <ol className='list-nav-container'>
+            <nav className='nav-container'>
+                <img className='logo' src={ logo } alt='algo' />
+                <ul className='list-nav-container'>
                     <li>Home</li>
                     <li>Lojas</li>
                     <li>Produtores</li>
                     <li>Contatos</li>
                     <li>Ofertas</li>
-                </ol>
+                </ul>
             </nav>
-            <div>
+            <div className='right-nav'>
                 <input type="text" placeholder="search" />
+                <p>Car</p>
+                <p>Perfil</p>
             </div>
-            <p>Car</p>
-            <p>Perfil</p>
         </div>
     )
 }
