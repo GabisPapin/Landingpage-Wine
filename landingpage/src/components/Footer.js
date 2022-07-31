@@ -10,10 +10,10 @@ export default function Footer() {
     return(
         <div className='footer-container'>
             <div className='icons-container'>
-                <BsFacebook className='icon-socials' />
-                <AiFillTwitterCircle className='icon-socials' />
-                <TiSocialInstagramCircular className='icon-socials' />
-                <BsYoutube className='icon-socials' />
+                <BsFacebook className='icon-socials a' />
+                <AiFillTwitterCircle className='icon-socials b' />
+                <TiSocialInstagramCircular className='icon-socials c' />
+                <BsYoutube className='icon-socials d' />
             </div>
             <div className='payment-container'>
                 <h3>Pagamento</h3>
@@ -28,7 +28,7 @@ export default function Footer() {
                 <h4 className='company'>W2W E-Commercer de Vinhos S.A.</h4>
                 <h4 className='cnpj'>CNPJ: 09.813.204/0002-05</h4>
                 <p className='address'>Rua Comendador Alcides Simão Helou, 1478</p>
-                <p className='address'>Serra - ES - CEP 29168-090</p>
+                <p className='address cep'>Serra - ES - CEP 29168-090</p>
                 <h4 className='warning'>SE BEBER, NÃO DIRIJA. APRECIE COM MODERAÇÃO.
                     A VENDA DE BEBIDAS ALCOÓLICAS É PROIBIDA PARA
                     MENORES DE 18 ANOS.

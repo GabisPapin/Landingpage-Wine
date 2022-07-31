@@ -1,0 +1,105 @@
+.big-div{
+    background-color: white;
+    padding-left: 6vw;
+    height: 70vh;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+
+.plans-container{
+    display: flex;
+}
+
+.cardMod-container{
+    border-radius: 10px;
+
+    height: 35vh;
+    width: 15vw;
+
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.1);
+
+    margin: 4vh 2vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardMod-container:hover {
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.half-container{
+    width: 100% ;
+    height: 100%;
+    background-color: orange;
+    clip-path: polygon(0 62%, 100% 0, 100% 100%, 0 100%);
+    position: absolute;
+    bottom: 0;
+}
+
+.plan-price {
+    position: absolute;
+    bottom: 6vh;
+    left: 3.3vw;
+    z-index: 5;
+    margin-bottom: 0.2vh;
+}
+
+.plan-price-disc{
+    position: absolute;
+    bottom: 3vh;
+    left: 2.5vw;
+    z-index: 5;
+}
+
+.icon {
+    max-width: 2vw;
+    position: absolute;
+    bottom: 2.7vh;
+    left: 0.4vw;
+    z-index: 5;
+}
+
+.carimbo {
+    max-width: 9vw;
+    position: absolute;
+    top: 2.7vh;
+    left: 5.4vw;
+    z-index: 5;
+    transform: rotate(-40deg);
+}
+
+.promotion {
+    transform: rotate(-40deg);
+    max-width: 6vw;
+    text-align: center;
+    font-size: 2.2vh;
+    position: absolute;
+    top: 9vh;
+    left: 7vw;
+    z-index: 5;
+}
+
+.gift{
+    position: absolute;
+    top: 22vh;
+    left: 2.5vw;
+    z-index: 5;
+}
+
+.gift-icon {
+    max-width: 1.5vw;
+    position: absolute;
+    top: 21.5vh;
+    left: 0.6vw;
+    z-index: 5;
+}
+
+.essencials {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vh;
+    margin-bottom: 2vh;
+}
+
+.description-plan {
+    max-width: 39vw;
+}

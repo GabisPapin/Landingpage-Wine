@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import {fetchProducts, fetchModalities} from '../services/fetchProducts';
+import { fetchModalities, fetchProducts } from '../services/fetchProducts';
 import LandingPageContext from './LandingPageContext';
 
 export default function LandingPageProvider(props) {
@@ -7,7 +7,9 @@ export default function LandingPageProvider(props) {
 
     const [data, setData] = useState();
     const [index, setIndex] = useState(0);
+    const [infoModality, setInfoModality] = useState([]);
     const [modality, setModality] = useState([]);
+
 
     useEffect(() => {
         const getProducts = async () => {
@@ -20,6 +22,7 @@ export default function LandingPageProvider(props) {
 
         const getModalities = async () => {
             const modalities = await fetchModalities();
+            setInfoModality(modalities);
             const data = modalities.map((el) => el.plans)
             setModality(data[0]);
             // console.log(data[0]);
@@ -33,6 +36,7 @@ export default function LandingPageProvider(props) {
         index,
         setIndex,
         modality,
+        infoModality,
     };
 
     return (
