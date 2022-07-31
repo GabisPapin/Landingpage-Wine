@@ -332,21 +332,23 @@ body {
 
 /* CAROUSEL */
 
+
 .carousel-container{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 110vw;
   height: 40vh;
+  position: relative;
 }
 
 .scratched-paper {
   width: 105vw;
   position: absolute;
   left: -1vw;
-  top: 163.5vh;
+  top: 163.5git addvh;
   image-rendering: pixelated;
-  z-index: 998;
+  z-index: 5;
 }
 
 
@@ -371,7 +373,31 @@ body {
   font-weight: 100;
   margin-top: 5vh;
   z-index: 9999;
-  
+}
+
+.carousel-button{
+  position: absolute;
+  z-index: 6;
+  border: none;
+  height: 10vh;
+  width: 5vw;
+  font-weight: 900;
+  font-size: 6vh;
+  padding-top: 1vh;
+  cursor: pointer;
+}
+
+.icons-carousel{
+  pointer-events: none;
+}
+
+#undo {
+  left: 5vw;
+
+}
+
+#next {
+  left: 90vw;
 }
 
 /* CardSlider */

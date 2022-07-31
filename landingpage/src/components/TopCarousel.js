@@ -1,4 +1,5 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext, useEffect } from 'react';
+import { FcNext, FcPrevious } from 'react-icons/fc';
 import scratchedPaper from "../assets/scratchedPaper.png";
 import LandingPageContext from "../context/LandingPageContext";
 
@@ -15,16 +16,41 @@ export default function Carousel() {
                setIndex(0);
             }
         }, MAGICNUMBER);
-    }, [index, setIndex])
+    }, [])
+
+    const handleClick = ({target}) => {
+        const { id } = target;
+        if(id === 'undo') {
+            setIndex(index === 0 ? 9 : index -1);
+        }
+        if(id === 'next') {
+            setIndex(index === 9 ? 0 : index +1);
+        }
+    }
 
 
     return (
         <div className="carousel-container">
+            <button 
+            className="carousel-button"
+            id="undo" type="button" 
+            onClick={ (e) => handleClick(e) }
+            >
+               <FcPrevious className="icons-carousel" />
+            </button>
             <img  className="scratched-paper" src={scratchedPaper} alt="scratched Paper" />
             <img className="bottle" src={data?.items[index].image} alt="" />
             <h3 className="sommelier-comment">
                 { `${data?.items[index].sommelierComment.split(' ').slice(0, 50).join(' ')}...`}
                 </h3>
+            <button 
+            className="carousel-button" 
+            id="next" type="button" 
+            onClick={ (e) => handleClick(e) }
+            >
+               <FcNext className="icons-carousel" />
+            </button>
+
         </div>
     )
 }
