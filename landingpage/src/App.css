@@ -163,6 +163,24 @@ body {
     text-align: right;
   }
 
+  /* PARTNER CARD */
+
+  .partnerCard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+  }
+
+  .left-adverts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .right-adverts {
+    display: flex;
+    flex-direction: column;
+  }
   /* CARD */
 
   .card-container {
