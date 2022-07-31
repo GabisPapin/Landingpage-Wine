@@ -12,10 +12,12 @@ export default function partnerCard(){
               <img className='card-img' src={jovinho} alt="Modelo tomando vinho"/>
             </div>
             <div className='right-adverts'>
-              <h3>ASSINE E GANHE:</h3>
-              <h4>+5 VINHOS GRÁTIS</h4>
-              <p>1 vinho extra por mês</p>
-              <h4>+2 TAÇAS DE CRISTAL</h4>
+              <h2>ASSINE E GANHE:</h2>
+              <div className='adverts-box'>
+                <h4>+5 VINHOS GRÁTIS</h4>
+                <p>1 vinho extra por mês</p>
+                <h4>+2 TAÇAS DE CRISTAL</h4>
+              </div>
               <button>ASSINE AGORA</button>
             </div>
         </div>
