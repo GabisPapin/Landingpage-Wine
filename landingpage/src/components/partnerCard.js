@@ -1,5 +1,5 @@
 import React from 'react';
-import jovinho from '../assets/jovinho.png'
+import jovinho from '../assets/jovinho.png';
 
 export default function partnerCard(){
     return(
@@ -9,7 +9,7 @@ export default function partnerCard(){
             <h3>SEJA SÓCIO WINE</h3>
           </div>
             <div>
-              <img className='card-img' src={jovinho} alt="Modelo tomando vinho"/>
+              <img className='partnerCard-img' src={jovinho} alt="Modelo tomando vinho"/>
             </div>
             <div className='right-adverts'>
               <h2>ASSINE E GANHE:</h2>

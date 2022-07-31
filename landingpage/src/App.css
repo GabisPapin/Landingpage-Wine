@@ -169,10 +169,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70vh;
+    height: 50vh;
   }
 
-  .left-adverts {
+  .left-adverts,
+  .right-adverts {
     display: flex;
     flex-direction: column;
     height: 50vh;
@@ -180,11 +181,8 @@ body {
     align-items: center;
   }
 
-  .right-adverts {
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
-    justify-content: space-around;
+  .partnerCard-img {
+    width: 50vw;
   }
 
   .adverts-box {

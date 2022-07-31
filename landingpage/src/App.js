@@ -4,7 +4,7 @@ import colheita from './assets/colheita.webp';
 import CardSlider from './components/CardSlider';
 import Footer from './components/Footer';
 import Header from './components/Header';
-import Carousel from './components/TopCarousel';
+// import Carousel from './components/TopCarousel';
 import PartnerCard from './components/partnerCard';
 
 function App() {
