@@ -7,7 +7,6 @@ export async function fetchProducts(page, limit) {
 
   try {
     const response = await fetch(URL, requestOptions);
-
     const data = await response.json();
     return data;
   } catch (err) {
@@ -24,7 +23,6 @@ export async function fetchModalities() {
 
   try {
     const response = await fetch(URL, requestOptions);
-
     const data = await response.json();
     return data;
   } catch (err) {
