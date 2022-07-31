@@ -4,9 +4,24 @@
 }
 
 body {
-  height: 400vh;
-  position: relative;
+  /* height: 400vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-x: hidden;
 }
+
+.top-image {
+  width: 100vw;
+  filter: brightness(100%);
+}
+
+.colheita-image{
+  width: 100vw;
+  opacity: 0.1;
+  filter:sepia(50%);
+}
+
 
 
 @media only screen and (max-width: 390px) {
@@ -31,25 +46,219 @@ body {
   
   .header-container {
     display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    padding-top: 3vh;
     width: 100vw;
+    height: 50vh;
+ 
+    background-image: url("https://m.foolcdn.com/media/dubs/original_images/9_3.jpg");
+    background-size: cover;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60vw;
+  }
+
+  .list-nav-container {
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+    color: white;
+    font-weight: 900;
+    list-style-type: none;
+
+  }
+
+  .right-nav{
+    display: flex;
+    width: 25vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-left: 9vw;
+    margin-top: 2.2vh;
+  }
+
+  .right-nav input {
+    height: 4vh;
+    width: 15vw;
+    border: none;
+    border-radius: 0.5vw;
+    padding-left: 0.4vw;
+
+  }
+
+  .logo{
+    width: 5vw;
     height: 8vh;
-  
-    background: #161616;
+    clip-path: circle();
   }
   
   /* FOOTER */
   
   .footer-container {
     display: flex;
+    flex-flow: column wrap;
     width: 100vw;
-    height: 10vh;
+    height: 80vh;  
+    background: #c4c2c2;
+    margin-top: 10vh;
+  }
   
-    bottom: 0;
-    position: absolute;
-  
-    background: #161616;
+  .icons-container {
+    align-content: space-between;
+    margin-top: 200px;
+    margin-left: 900px;
   }
 
+  .icon-socials {
+    width: 50px;
+    height: 50px;
+    color: rgb(88, 14, 32);
+  }
+
+  .payment-container {
+    margin-left: 40px;
+    text-align: center;
+  }
+
+  .icon-pay {
+    width: 50px;
+    height: 50px;
+  }
+
+  .information-container {
+    justify-content: space-between;
+  }
+
+  .company {
+    text-align:left;
+    margin-left: 40px;
+  }
+
+  .cnpj {
+    text-align:left;
+    margin-left: 39px;
+  }
+
+  .address {
+    text-align: center;
+  }
+
+  .warning {
+    font-size: 11px;
+    text-align: right;
+  }
+
+  /* CARD */
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    margin: 2vh 1vw;
+  }
+
+  .images-card{
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    height: 40vh;
+    position: relative;
+    background-image: url("./assets/wineSpot1.png");
+    background-size: 80% ;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .card-img {
+    max-height: 25vw;
+  }
+
+  .wine-title {
+    width: 100%;
+    font-size: 3vh;
+    text-align: center;
+  }
+
+  .price {
+    margin-top: 2vh;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2vh;
+  }
+
+  .buttons button {
+    height: 5vh;
+    width: 10vw;
+  }
+
+  .card-flag {
+    width: 5vw;
+    position: absolute;
+    top: 1vh;
+    right: 2vw;
+
+  }
+
+/* CAROUSEL */
+
+.carousel-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110vw;
+  height: 40vh;
+}
+
+.scratched-paper {
+  width: 105vw;
+  position: absolute;
+  left: -1vw;
+  top: 40vh;
+  image-rendering: pixelated;
+  z-index: 998;
+}
 
 
 
+.bottle {
+  margin-left: -15vw ;
+  z-index: 999;
+  transform: rotate(25deg);
+  animation-name: bottle;
+  animation-duration: 4s;
+}
+
+@keyframes bottle {
+  0% {margin-left: -10vw; }
+  100% {margin-left: 15vw;}
+}
+
+.sommelier-comment{
+  width: 40vw;
+  font-family: 'Dancing Script', cursive;
+  font-size: 4.5vh;
+  font-weight: 100;
+  z-index: 9999;
+  
+}
+
+/* CardSlider */
+
+.slider-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
