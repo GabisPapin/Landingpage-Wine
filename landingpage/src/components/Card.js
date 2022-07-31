@@ -1,4 +1,5 @@
 import React from 'react';
+import shoppingCart from '../assets/shoppingCart.png';
 
 export default function Card({info}){
     // const context = useContext(LandingPageContext);
@@ -12,8 +13,8 @@ export default function Card({info}){
             </div>
             <h3 className='wine-title'>{info.name}</h3>
             <h2 className='price'>{`R$ ${info.price.toFixed(2)}`}</h2>
-            <div className='buttons'>
-                <button type='button'>Add to Cart</button>
+            <div>
+                <button className='buttons'><img className="shoppingCart-icon" src={ shoppingCart } alt="icone do carrinho" /> Adicionar ao carrinho</button>
             </div>
         </div>
     )

@@ -5,15 +5,16 @@ import CardSlider from './components/CardSlider';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Carousel from './components/TopCarousel';
+import PartnerCard from './components/partnerCard';
 
 function App() {
   return (
     <div className='container'>
       <Header />
-      <Carousel />
+      <PartnerCard />
+      {/* <Carousel /> */}
       <img className="top-image" src={brinde} alt="Uma imagem" />
       <img className="colheita-image" src={colheita} alt="Uma imagem" />
-
       <CardSlider />
       <Footer />
     </div>

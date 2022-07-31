@@ -63,6 +63,11 @@ body {
     width: 60vw;
   }
 
+  .header-icons {
+    height: 5vh;
+    filter: invert(100%);
+  }
+
   .list-nav-container {
     display: flex;
     width: 50vw;
@@ -70,7 +75,10 @@ body {
     color: white;
     font-weight: 900;
     list-style-type: none;
+  }
 
+  .list-nav-container:hover {
+    cursor: pointer;
   }
 
   .right-nav{
@@ -155,6 +163,35 @@ body {
     text-align: right;
   }
 
+  /* PARTNER CARD */
+
+  .partnerCard-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+  }
+
+  .left-adverts {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .right-adverts {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-around;
+  }
+
+  .adverts-box {
+    display: flex;
+    flex-direction: column;
+  }
+
   /* CARD */
 
   .card-container {
@@ -164,6 +201,10 @@ body {
     align-items: center;
     width: 20vw;
     margin: 2vh 1vw;
+  }
+
+  .card-container:hover {
+    color: red;
   }
 
   .images-card{
@@ -183,6 +224,10 @@ body {
     max-width: 12.5vw;
   }
 
+  .shoppingCart-icon {
+    height: 4vh;
+  }
+
   .wine-title {
     width: 100%;
     font-size: 3vh;
@@ -196,8 +241,16 @@ body {
   .buttons {
     display: flex;
     justify-content: center;
-
     margin-top: 2vh;
+    padding: 3px 5px;
+    /* background-color: white; */
+    color: red;
+    border: black;
+  }
+
+  .buttons:hover {
+    color: white;
+    background-color: red;
   }
 
   .buttons button {
