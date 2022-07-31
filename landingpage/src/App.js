@@ -1,6 +1,7 @@
 import './App.css';
 import brinde from './assets/brinde.webp';
 import colheita from './assets/colheita.webp';
+import CardMod from './components/cardMod';
 import CardSlider from './components/CardSlider';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -16,6 +17,7 @@ function App() {
       <img className="top-image" src={brinde} alt="Uma imagem" />
       <img className="colheita-image" src={colheita} alt="Uma imagem" />
       <CardSlider />
+      <CardMod />
       <Footer />
     </div>
   );
