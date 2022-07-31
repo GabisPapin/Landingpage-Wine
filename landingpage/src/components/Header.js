@@ -18,8 +18,10 @@ export default function Header() {
             </nav>
             <div className='right-nav'>
                 <input type="text" placeholder="search" />
+                <a href="https://www.wine.com.br/sign-in.ep#/identificacao" target="_blank" rel='noreferrer'>
+                    <img className="header-icons" src={ profile } alt="icone do perfil"/>
+                </a>
                 <img className="header-icons" src={ shoppingList } alt="icone do carrinho de compras"/>
-                <img className="header-icons" src={ profile } alt="icone do perfil"/>
             </div>
         </div>
     )

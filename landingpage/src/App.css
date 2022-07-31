@@ -75,7 +75,10 @@ body {
     color: white;
     font-weight: 900;
     list-style-type: none;
+  }
 
+  .list-nav-container:hover {
+    cursor: pointer;
   }
 
   .right-nav{
@@ -171,6 +174,10 @@ body {
     margin: 2vh 1vw;
   }
 
+  .card-container:hover {
+    color: red;
+  }
+
   .images-card{
     display: flex;
     justify-content: center;
@@ -187,6 +194,10 @@ body {
     max-height: 25vw;
   }
 
+  .shoppingCart-icon {
+    height: 4vh;
+  }
+
   .wine-title {
     width: 100%;
     font-size: 3vh;
@@ -200,8 +211,16 @@ body {
   .buttons {
     display: flex;
     justify-content: center;
-
     margin-top: 2vh;
+    padding: 3px 5px;
+    /* background-color: white; */
+    color: red;
+    border: black;
+  }
+
+  .buttons:hover {
+    color: white;
+    background-color: red;
   }
 
   .buttons button {
