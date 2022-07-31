@@ -109,7 +109,7 @@ body {
     background: #c4c2c2;
     margin-top: 10vh;
   }
-  
+
   .icons-container {
     align-content: space-between;
     margin-top: 200px;
@@ -180,6 +180,7 @@ body {
 
   .card-img {
     max-height: 25vw;
+    max-width: 12.5vw;
   }
 
   .wine-title {
@@ -238,12 +239,12 @@ body {
   z-index: 999;
   transform: rotate(25deg);
   animation-name: bottle;
-  animation-duration: 4s;
+  animation-duration: 5s;
 }
 
 @keyframes bottle {
-  0% {margin-left: -10vw; }
-  100% {margin-left: 15vw;}
+  0% {margin-left: -60vw; }
+  100% {margin-left: -15vw;}
 }
 
 .sommelier-comment{
@@ -251,6 +252,7 @@ body {
   font-family: 'Dancing Script', cursive;
   font-size: 4.5vh;
   font-weight: 100;
+  margin-top: 5vh;
   z-index: 9999;
   
 }
