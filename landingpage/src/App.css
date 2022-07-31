@@ -63,6 +63,11 @@ body {
     width: 60vw;
   }
 
+  .header-icons {
+    height: 5vh;
+    filter: invert(100%);
+  }
+
   .list-nav-container {
     display: flex;
     width: 50vw;
