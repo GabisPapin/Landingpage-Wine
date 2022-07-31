@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import brinde from './assets/brinde.webp';
 import CardMod from './components/cardMod';
@@ -10,16 +11,15 @@ import PartnerCard from './components/partnerCard';
 
 function App() {
   return (
-    <div className='container'>
+    <div className="container">
       <Header />
-      <div className='teste'>
-      <CardMod />
-      <PartnerCard />
+      <div className="teste">
+        <CardMod />
+        <PartnerCard />
       </div>
       <Carousel />
-      <img className="top-image" src={brinde} alt="Uma imagem" />
+      <img className="top-image" src={ brinde } alt="Uma imagem" />
       <CardSlider />
-      
       <Footer />
     </div>
   );
