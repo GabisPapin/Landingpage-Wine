@@ -14,7 +14,6 @@ Gabriela Papin - https://github.com/GabisPapin
 João Paulo Nascimento - https://github.com/joaopaulo-ern
 Miguel Lofredo - https://github.com/miguellofredo85
 
-## Para rodar a aplicação:
+## Deployment:
 
-Após clonar o repositório, digitar o comando `npm install` para baixar as dependências.
-E para rodar a aplicação, `npm start`.
+Para acessar a aplicação: https://gabispapin.github.io/Landingpage-Wine/
