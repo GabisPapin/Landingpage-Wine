@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Landingpage-Wine/static/css/main.acf5a3e3.css",
-    "main.js": "/Landingpage-Wine/static/js/main.5666df3f.js",
-    "static/js/787.66b477fd.chunk.js": "/Landingpage-Wine/static/js/787.66b477fd.chunk.js",
-    "static/media/wineSpot1.png": "/Landingpage-Wine/static/media/wineSpot1.2aa27f37eaa1bc05b0c1.png",
-    "static/media/scratchedPaper.png": "/Landingpage-Wine/static/media/scratchedPaper.7ff684b89a952fe02a67.png",
-    "static/media/carimboDesconto.png": "/Landingpage-Wine/static/media/carimboDesconto.f0f4eb3c7d3174994a19.png",
-    "static/media/brinde.webp": "/Landingpage-Wine/static/media/brinde.a54ed582d76054df87ee.webp",
-    "static/media/jovinho.png": "/Landingpage-Wine/static/media/jovinho.9dd742c7ce4620bd3922.png",
-    "static/media/discontIcon.png": "/Landingpage-Wine/static/media/discontIcon.ef99e7ce069484b4c674.png",
-    "static/media/gift.png": "/Landingpage-Wine/static/media/gift.07543f44541b03011cdb.png",
-    "static/media/logoGrande.jpg": "/Landingpage-Wine/static/media/logoGrande.ffcb0e0aa75b39a5d0e8.jpg",
-    "static/media/shoppingCart.png": "/Landingpage-Wine/static/media/shoppingCart.78215909b21f0b186a7f.png",
-    "index.html": "/Landingpage-Wine/index.html",
-    "main.acf5a3e3.css.map": "/Landingpage-Wine/static/css/main.acf5a3e3.css.map",
-    "main.5666df3f.js.map": "/Landingpage-Wine/static/js/main.5666df3f.js.map",
-    "787.66b477fd.chunk.js.map": "/Landingpage-Wine/static/js/787.66b477fd.chunk.js.map"
+    "main.css": "/landingPageWine/static/css/main.76cd6eab.css",
+    "main.js": "/landingPageWine/static/js/main.66119055.js",
+    "static/js/787.66b477fd.chunk.js": "/landingPageWine/static/js/787.66b477fd.chunk.js",
+    "static/media/wineSpot1.png": "/landingPageWine/static/media/wineSpot1.2aa27f37eaa1bc05b0c1.png",
+    "static/media/scratchedPaper.png": "/landingPageWine/static/media/scratchedPaper.7ff684b89a952fe02a67.png",
+    "static/media/carimboDesconto.png": "/landingPageWine/static/media/carimboDesconto.f0f4eb3c7d3174994a19.png",
+    "static/media/brinde.webp": "/landingPageWine/static/media/brinde.a54ed582d76054df87ee.webp",
+    "static/media/jovinho.png": "/landingPageWine/static/media/jovinho.9dd742c7ce4620bd3922.png",
+    "static/media/discontIcon.png": "/landingPageWine/static/media/discontIcon.ef99e7ce069484b4c674.png",
+    "static/media/gift.png": "/landingPageWine/static/media/gift.07543f44541b03011cdb.png",
+    "static/media/logoGrande.jpg": "/landingPageWine/static/media/logoGrande.ffcb0e0aa75b39a5d0e8.jpg",
+    "static/media/shoppingCart.png": "/landingPageWine/static/media/shoppingCart.78215909b21f0b186a7f.png",
+    "index.html": "/landingPageWine/index.html",
+    "main.76cd6eab.css.map": "/landingPageWine/static/css/main.76cd6eab.css.map",
+    "main.66119055.js.map": "/landingPageWine/static/js/main.66119055.js.map",
+    "787.66b477fd.chunk.js.map": "/landingPageWine/static/js/787.66b477fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acf5a3e3.css",
-    "static/js/main.5666df3f.js"
+    "static/css/main.76cd6eab.css",
+    "static/js/main.66119055.js"
   ]
 }
