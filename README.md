@@ -8,13 +8,15 @@ Tempo de desemvolvimento: 26 horas, sendo as 2 últimas para apresentação com 
 
 O squad foi composto por:
 
-Gustavo Santos - https://github.com/Guga-Santos
-Matheus Vital - https://github.com/VitalMatheus
-Gabriela Papin - https://github.com/GabisPapin
-João Paulo Nascimento - https://github.com/joaopaulo-ern
-Miguel Lofredo - https://github.com/miguellofredo85
+# Gustavo Santos - https://github.com/Guga-Santos
+# Matheus Vital - https://github.com/VitalMatheus
+# Gabriela Papin - https://github.com/GabisPapin
+# João Paulo Nascimento - https://github.com/joaopaulo-ern
+# Miguel Lofredo - https://github.com/miguellofredo85
 
 ## Para rodar a aplicação:
 
 Após clonar o repositório, digitar o comando `npm install` para baixar as dependências.
 E para rodar a aplicação, `npm start`.
+
+## Para acessar o deploy:  https://gabispapin.github.io/landingPageWine/
