@@ -19,4 +19,5 @@ O squad foi composto por:
 Após clonar o repositório, digitar o comando `npm install` para baixar as dependências.
 E para rodar a aplicação, `npm start`.
 
+## ATENÇÃO: A API fornecida não está disponível, o link da aplicação pode não estar funcionando.
 ## Para acessar o deploy:  https://gabispapin.github.io/landingPageWine/
